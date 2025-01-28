@@ -3,7 +3,7 @@ setlocal
 
 :: Moves all of the files in Folder A to Folder B. The
 :: user is prompted for the path to Folders A and B. If
-:: Folder B does not already exist, CopyFile will make 
+:: Folder B does not already exist, MoveFiles will make 
 :: the new folder automatically.
 
 rem Prompt the user to enter the source folder path

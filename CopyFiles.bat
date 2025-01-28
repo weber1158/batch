@@ -4,7 +4,7 @@ setlocal
 :: Makes copies of all files in Folder A and pastes the
 :: copies in Folder B. The user is prompted for the path
 :: to Folder A and Folder B. If Folder B does not already
-:: exist, CopyFile will make the new folder automatically.
+:: exist, CopyFiles will make the new folder automatically.
 
 rem Prompt the user to enter the source folder path
 set /p source="Enter the path to the source folder: "
